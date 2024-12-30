@@ -1,0 +1,55 @@
+.contenedor {
+    display: flex;
+}
+
+.tarjeta {
+    border: 2.5px solid black;
+    margin: 5px;
+    flex-basis: 400px;
+}
+
+.encabezado {
+    background-color: lightgray;
+    height: 95px;
+}
+
+p {
+    margin: 0;
+    padding: 5;
+}
+
+.contenedor .tarjeta {
+    display: flex;
+    flex-direction: column;
+}
+
+.encabezado {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.imagen {
+    width: 90px;
+    border-bottom: 2.5px solid black;
+    border-right: 2.5px solid black;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 1px;
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo {
+    font-size: 150%;
+    font-weight: bold;
+    text-align: center;
+    align-self: center;
+    align-content: center;
+}
+
+.texto {
+    text-align: justify;
+    padding: 5px;
+}
